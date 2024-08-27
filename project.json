@@ -1,0 +1,705 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Um wallpaper de jogo da cobrinha totalmente funcional e jogável. No estilo de um terminal de comando.",
+	"file" : "index.html",
+	"general" : 
+	{
+		"localization" : 
+		{
+			"en-us" : 
+			{
+				"ui_arenaheight" : "Arena Height",
+				"ui_arenasettings" : "General",
+				"ui_arenawidth" : "Arena Width",
+				"ui_backgroundcolor" : "Background Color",
+				"ui_borderbottomcornercharacter" : "Border Bottom Corner Character",
+				"ui_bordercolor" : "Border Color",
+				"ui_borderhorizontaledgecharacter" : "Border Horizontal Edge Character",
+				"ui_bordertopcornercharacter" : "Border Top Corner Character",
+				"ui_borderverticaledgecharacter" : "Border Vertical Edge Character",
+				"ui_bottomlefttexttitle" : "<h4><i>Bottom Left Text:</i></h4>",
+				"ui_bottomrighttexttitle" : "<h4><i>Bottom Right Text:</i></h4>",
+				"ui_bypassfpslimitwhenplayercontrollerisenabled" : "Bypass FPS Limit when Player Controller is Enabled",
+				"ui_characters" : "Characters",
+				"ui_colors" : "Colors",
+				"ui_controllerhighlightcolor" : "Controller Highlight Color",
+				"ui_controllerlinecolor" : "Controller Line Color",
+				"ui_deathinterval" : "Death Interval (seconds)",
+				"ui_deathlocationcharacter" : "Death Location Character",
+				"ui_deathlocationcolor" : "Death Location Color",
+				"ui_fontsize" : "Font Size (zoom)",
+				"ui_foodcharacter" : "Food Character",
+				"ui_fooddangercharacter" : "Secret Food 5 Character",
+				"ui_fooddangercolor" : "Secret Food 5 Color",
+				"ui_foodgoldencolor" : "Secret Food 1 Color",
+				"ui_foodnormalcolor" : "Food Color",
+				"ui_foodrejuvenationcolor" : "Secret Food 3 Color",
+				"ui_foodumamicolor" : "Secret Food 2 Color",
+				"ui_gametickinterval" : "Game Tick Interval (milliseconds)",
+				"ui_groupadvanced" : "Advanced",
+				"ui_initalsnakesize" : "Inital Snake Length",
+				"ui_initfoodoninit" : "Start map filled with food",
+				"ui_maxfoodinarena" : "Max Foods in Arena",
+				"ui_playercontroller" : "<b>Player Controller</b>",
+				"ui_schemecolor" : "Scheme Color",
+				"ui_snakebodycharacter" : "Snake Body Character",
+				"ui_snakecolorsprimarycolor" : "Snake Color",
+				"ui_snakecustompatterncolors" : "Snake Pattern Colors",
+				"ui_snakeflashcolor" : "Snake Effect Ending Flash Color",
+				"ui_snakeheadcharacter" : "Snake Head Character",
+				"ui_snakepatternhint" : "<i>^ place colors in hexadecimal format in sequence to form the snake pattern. separate the list with the character </i><code>|</code><i> (pipe) to create variants that will be cycled every time the snake is revived.<br>example: <code>#000 #fff | #f00</code> will make a variant balck and white (intercalated) and a variant fully red</i>",
+				"ui_snakeskin" : "Snake Pattern",
+				"ui_snaketailcharacter" : "Snake Tail Character",
+				"ui_stexthowusecontrol" : "<i>^ click or hold on the wallpaper to play :)</i>",
+				"ui_stextreplacementhelp" : "<br><i>The following texts will be replaced with their respective values:<li><code>{snakeLength}</code>: Current snake length</li><li><code>{largestSnakeLength}</code>: Longest snake length of the session</li><li><code>{score}</code>: Current score</li><li><code>{bestScore}</code>: Highest score of the session</li><li><code>{deathCount}</code>: Total death count of the session</li><li><code>{hour24}</code>: Displays the current hour (local time) in the 24h format</li><li><code>{hour12}</code>: Displays the current hour (local time) in the 12h format</li><li><code>{AMPM}</code> and <code>{ampm}</code>: Displays the \"AM\" and \"PM\" texts (upper and lower case, respectively) based on the local time</li><li><code>{minute}</code>: Displays the current minute (local time)</li><li><code>{second}</code>: Displays the current second (local time)</li><li><code>{newline}</code>: Inserts a line break (new line)</li><li><code>{fullYear}</code>: Displays the current year (local time) with all digits</li><li><code>{twoDigitsYear}</code>: Displays the last two digits of the current year (local time)</li><li><code>{day}</code>: Displays the current day of the month (local time)</li><li><code>{month}</code>: Displays the current month (local time)</li><br>The following texts will be replaced with the respective values ONLY when the condition is met. Otherwise it will be replaced by empty<li><code>{whenDead:EXAMPLE TEXT}</code>: Displays EXAMPLE TEXT while the snake is dead</li><li><code>{whenAlive:EXAMPLE TEXT}</code>: Displays EXAMPLE TEXT while the snake is alive</li><li><code>{whenNewBestScore:EXAMPLE TEXT}</code>: Displays EXAMPLE TEXT while the current score is better than the highest score</li><li><code>{whenNewBestSneakLength:EXAMPLE TEXT}</code>: Displays while the snake's current length is greater than the snake's longest length</li><b>Note:</b> replace EXAMPLE TEXT with any text you like</i>",
+				"ui_syncfpswithgametick" : "Sync FPS With Game Update",
+				"ui_text" : "Texts",
+				"ui_textboxbottomleftpositionoffsetx" : "Position X",
+				"ui_textboxbottomleftpositionoffsety" : "Position Y",
+				"ui_textboxbottomlefttext" : "Text",
+				"ui_textboxbottomrightpositionoffsetx" : "Position X",
+				"ui_textboxbottomrightpositionoffsety" : "Position Y",
+				"ui_textboxbottomrighttext" : "Text",
+				"ui_textboxtopleftpositionoffsetx" : "Position X",
+				"ui_textboxtopleftpositionoffsety" : "Position Y",
+				"ui_textboxtoplefttext" : "Text",
+				"ui_textboxtoprightpositionoffsetx" : "Position X",
+				"ui_textboxtoprightpositionoffsety" : "Position Y",
+				"ui_textboxtoprighttext" : "Text",
+				"ui_textcolor" : "Text Color",
+				"ui_toplefttexttitle" : "<h4><i>Top Left Text:</i></h4>",
+				"ui_toprighttexttitle" : "<h4><i>Top Right Text:</i></h4>",
+				"ui_wallwarp" : "Wall warps"
+			},
+			"pt-br" : 
+			{
+				"ui_arenaheight" : "Altura da Arena",
+				"ui_arenasettings" : "Geral",
+				"ui_arenawidth" : "Largura da Arena",
+				"ui_backgroundcolor" : "Cor de Fundo",
+				"ui_borderbottomcornercharacter" : "Caractere do Canto Inferior da Borda",
+				"ui_bordercolor" : "Cor da Borda",
+				"ui_borderhorizontaledgecharacter" : "Caractere das Arestas Horizontais da Borda",
+				"ui_bordertopcornercharacter" : "Caractere do Canto Superior da Borda",
+				"ui_borderverticaledgecharacter" : "Caractere das Arestas Verticais da Borda",
+				"ui_bottomlefttexttitle" : "<h4><i>Text Inferior Esquerdo:</i></h4>",
+				"ui_bottomrighttexttitle" : "<h4><i>Texto Inferior Direito:</i></h4>",
+				"ui_bypassfpslimitwhenplayercontrollerisenabled" : "Desativar Limite de FPS quando o Controle do Jogador estiver Ligado",
+				"ui_characters" : "Caracteres",
+				"ui_colors" : "Cores",
+				"ui_controllerhighlightcolor" : "Cor do Destaque do Controle",
+				"ui_controllerlinecolor" : "Cor das Linhas do Controle",
+				"ui_deathinterval" : "Intervalo da Morte (em segundos)",
+				"ui_deathlocationcharacter" : "Caractere da Localização da Morte",
+				"ui_deathlocationcolor" : "Cor da Localização da Morte",
+				"ui_fontsize" : "Tamanho da Fonte (zoom)",
+				"ui_foodcharacter" : "Caractere da Comida",
+				"ui_fooddangercharacter" : "Caractere da Comida Secreta 5",
+				"ui_fooddangercolor" : "Cor da Comida Secreta 5",
+				"ui_foodgoldencolor" : "Cor da Comida Secreta 1",
+				"ui_foodnormalcolor" : "Cor da Comida",
+				"ui_foodrejuvenationcolor" : "Cor da Comida Secreta 3",
+				"ui_foodumamicolor" : "Cor da Comida Secreta 2",
+				"ui_gametickinterval" : "Intervalo entre os Ticks (em milisegundos)",
+				"ui_groupadvanced" : "Avancado",
+				"ui_initalsnakesize" : "Tamanho inicial da Cobra",
+				"ui_initfoodoninit" : "Iniciar o Mapa cheio de comida",
+				"ui_maxfoodinarena" : "Quantidade Máxima de Comida",
+				"ui_playercontroller" : "<b>Controle do Jogador</b>",
+				"ui_snakebodycharacter" : "Caractere do Corpo da Cobra",
+				"ui_snakecolorsprimarycolor" : "Cor da Cobra",
+				"ui_snakecustompatterncolors" : "Cores do Padrão da Cobra",
+				"ui_snakeflashcolor" : "Cor do Flash do Fim do Efeito",
+				"ui_snakeheadcharacter" : "Caractere da Cabeça da Cobra",
+				"ui_snakepatternhint" : "<i>^ coloque cores no formato hexadecimal em sequência para formar o padrão da cobra. separe a lista com a caractere </i><code>|</code><i> (pipe) para criar variantes que serão cicladas toda vez que a cobra renascer.<br>exemplo: <code>#000 #fff | #f00</code> fará uma variante preto e branco (intercalado) e uma variante vermelha</i>",
+				"ui_snakeskin" : "Padrão de Cor da Cobra",
+				"ui_snaketailcharacter" : "Caractere da Cauda da Cobra",
+				"ui_stexthowusecontrol" : "<i>^ clique ou segure no wallpaper para jogar :)</i>",
+				"ui_stextreplacementhelp" : "<br><i>Os seguintes textos serão substituídos pelos respectivos valores:<li><code>{snakeLength}</code>: Tamanho atual da cobra</li><li><code>{largestSnakeLength}</code>: Maior tamanho da cobra nessa sessão</li><li><code>{score}</code>: Pontuação atual</li><li><code>{bestScore}</code>: Pontuação mais alta nessa sessão</li><li><code>{deathCount}</code>: Quantidade total de morte nessa sessão</li><li><code>{hour24}</code>: Horas (horário local) no formato de 24h</li><li><code>{hour12}</code>: Horas (horário local) no formato de 12h</li><li><code>{AMPM}</code> and <code>{ampm}</code>: Texto \"AM\" ou \"PM\" (caixa alta e caixa baixa, respectivamente) baseando-se no horário local</li><li><code>{minute}</code>: Minutos (horário local)</li><li><code>{second}</code>: Segundos (horário local)</li><li><code>{newline}</code>: Quebra de linha (nova linha)</li><li><code>{fullYear}</code>: Ano atual (horário local) com todos os dígitos</li><li><code>{twoDigitsYear}</code>: Os últimos 2 digitos do ano atual (horário local)</li><li><code>{month}</code>: Mês atual (horário local)</li><li><code>{day}</code>: Dia do mês atual (horário local)</li><br>Os seguintes textos serão subistituidos pelos respectivos valores APENAS quando a condição for cumprida. Caso contrário, será subistituído por vazio<li><code>{whenDead:TEXTO DE EXEMPLO}</code>: Mostra TEXTO DE EXEMPLO enquando a cobra estiver morta</li><li><code>{whenAlive:TEXTO DE EXEMPLO}</code>: Mostra TEXTO DE EXEMPLO enquanto a cobra estiver viva</li><li><code>{whenNewBestScore:TEXTO DE EXEMPLO}</code>: Mostra TEXTO DE EXEMPLO enquanto a pontuação atual for maior do que a maior pontuação registrada</li><li><code>{whenNewBestSneakLength:TEXTO DE EXEMPLO}</code>: Mostra TEXTO EXEMPLO enquanto o tamanho atual da cobra for maior do que o maior tamanho registrado</li><b>Observação:</b> Subistitua o TEXTO DE EXEMPLO por qualquer texto que você queira</i>",
+				"ui_syncfpswithgametick" : "Sincronizar FPS com a Velocidade do Jogo",
+				"ui_text" : "Textos",
+				"ui_textboxbottomleftpositionoffsetx" : "Posição X",
+				"ui_textboxbottomleftpositionoffsety" : "Posição Y",
+				"ui_textboxbottomlefttext" : "Texto",
+				"ui_textboxbottomrightpositionoffsetx" : "Posição X",
+				"ui_textboxbottomrightpositionoffsety" : "Posição Y",
+				"ui_textboxbottomrighttext" : "Texto",
+				"ui_textboxtopleftpositionoffsetx" : "Posição X",
+				"ui_textboxtopleftpositionoffsety" : "Posição Y",
+				"ui_textboxtoplefttext" : "Texto",
+				"ui_textboxtoprightpositionoffsetx" : "Posição X",
+				"ui_textboxtoprightpositionoffsety" : "Posição Y",
+				"ui_textboxtoprighttext" : "Texto",
+				"ui_textcolor" : "Cor dos Textos",
+				"ui_toplefttexttitle" : "<h4><i>Texto Superior Esquerdo:</i></h4>",
+				"ui_toprighttexttitle" : "<h4><i>Texto Superior Direito:</i></h4>",
+				"ui_wallwarp" : "Parede em Loop"
+			}
+		},
+		"properties" : 
+		{
+			"arenaheight" : 
+			{
+				"fraction" : false,
+				"index" : 5,
+				"max" : 256,
+				"min" : 2,
+				"order" : 105,
+				"text" : "ui_arenaheight",
+				"type" : "slider",
+				"value" : 16
+			},
+			"arenasettings" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "ui_arenasettings",
+				"type" : "group",
+				"value" : ""
+			},
+			"arenawidth" : 
+			{
+				"fraction" : false,
+				"index" : 4,
+				"max" : 256,
+				"min" : 2,
+				"order" : 104,
+				"text" : "ui_arenawidth",
+				"type" : "slider",
+				"value" : 16
+			},
+			"backgroundcolor" : 
+			{
+				"index" : 46,
+				"order" : 146,
+				"text" : "ui_backgroundcolor",
+				"type" : "color",
+				"value" : "0.11764705882352941 0.12549019607843137 0.18823529411764706"
+			},
+			"borderbottomcornercharacter" : 
+			{
+				"index" : 38,
+				"order" : 138,
+				"text" : "ui_borderbottomcornercharacter",
+				"type" : "textinput",
+				"value" : "'"
+			},
+			"bordercolor" : 
+			{
+				"index" : 49,
+				"order" : 149,
+				"text" : "ui_bordercolor",
+				"type" : "color",
+				"value" : "0.5764705882352941 0.5764705882352941 0.5764705882352941"
+			},
+			"borderhorizontaledgecharacter" : 
+			{
+				"index" : 39,
+				"order" : 139,
+				"text" : "ui_borderhorizontaledgecharacter",
+				"type" : "textinput",
+				"value" : "-"
+			},
+			"bordertopcornercharacter" : 
+			{
+				"index" : 37,
+				"order" : 137,
+				"text" : "ui_bordertopcornercharacter",
+				"type" : "textinput",
+				"value" : ""
+			},
+			"borderverticaledgecharacter" : 
+			{
+				"index" : 40,
+				"order" : 140,
+				"text" : "ui_borderverticaledgecharacter",
+				"type" : "textinput",
+				"value" : "'"
+			},
+			"bottomlefttexttitle" : 
+			{
+				"index" : 21,
+				"order" : 121,
+				"text" : "ui_bottomlefttexttitle",
+				"type" : "text"
+			},
+			"bottomrighttexttitle" : 
+			{
+				"index" : 25,
+				"order" : 125,
+				"text" : "ui_bottomrighttexttitle",
+				"type" : "text"
+			},
+			"bypassfpslimitwhenplayercontrollerisenabled" : 
+			{
+				"index" : 60,
+				"order" : 160,
+				"text" : "ui_bypassfpslimitwhenplayercontrollerisenabled",
+				"type" : "bool",
+				"value" : true
+			},
+			"characters" : 
+			{
+				"index" : 30,
+				"order" : 130,
+				"text" : "ui_characters",
+				"type" : "group",
+				"value" : ""
+			},
+			"colors" : 
+			{
+				"index" : 41,
+				"order" : 141,
+				"text" : "ui_colors",
+				"type" : "group",
+				"value" : ""
+			},
+			"controllerhighlightcolor" : 
+			{
+				"index" : 57,
+				"order" : 157,
+				"text" : "ui_controllerhighlightcolor",
+				"type" : "color",
+				"value" : "0.47058823529411764 0.47058823529411764 1"
+			},
+			"controllerlinecolor" : 
+			{
+				"index" : 56,
+				"order" : 156,
+				"text" : "ui_controllerlinecolor",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"deathinterval" : 
+			{
+				"fraction" : true,
+				"index" : 10,
+				"max" : 30,
+				"min" : 0,
+				"order" : 110,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "ui_deathinterval",
+				"type" : "slider",
+				"value" : 5
+			},
+			"deathlocationcharacter" : 
+			{
+				"index" : 36,
+				"order" : 136,
+				"text" : "ui_deathlocationcharacter",
+				"type" : "textinput",
+				"value" : "X"
+			},
+			"deathlocationcolor" : 
+			{
+				"index" : 48,
+				"order" : 148,
+				"text" : "ui_deathlocationcolor",
+				"type" : "color",
+				"value" : "0.9686274509803922 0.5843137254901961 0.40784313725490196"
+			},
+			"fontsize" : 
+			{
+				"fraction" : true,
+				"index" : 3,
+				"max" : 128,
+				"min" : 1,
+				"order" : 103,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "ui_fontsize",
+				"type" : "slider",
+				"value" : 32
+			},
+			"foodcharacter" : 
+			{
+				"index" : 34,
+				"order" : 134,
+				"text" : "ui_foodcharacter",
+				"type" : "textinput",
+				"value" : "*"
+			},
+			"fooddangercharacter" : 
+			{
+				"index" : 35,
+				"order" : 135,
+				"text" : "ui_fooddangercharacter",
+				"type" : "textinput",
+				"value" : "!"
+			},
+			"fooddangercolor" : 
+			{
+				"index" : 54,
+				"order" : 154,
+				"text" : "ui_fooddangercolor",
+				"type" : "color",
+				"value" : "0.9294117647058824 0.45098039215686275 0.43137254901960786"
+			},
+			"foodgoldencolor" : 
+			{
+				"index" : 51,
+				"order" : 151,
+				"text" : "ui_foodgoldencolor",
+				"type" : "color",
+				"value" : "0.8 0.5568627450980392 0.30196078431372547"
+			},
+			"foodnormalcolor" : 
+			{
+				"index" : 47,
+				"order" : 147,
+				"text" : "ui_foodnormalcolor",
+				"type" : "color",
+				"value" : "0.5568627450980392 0.6745098039215687 1"
+			},
+			"foodrejuvenationcolor" : 
+			{
+				"index" : 53,
+				"order" : 153,
+				"text" : "ui_foodrejuvenationcolor",
+				"type" : "color",
+				"value" : "0.9098039215686274 0.5137254901960784 0.8901960784313725"
+			},
+			"foodumamicolor" : 
+			{
+				"index" : 52,
+				"order" : 152,
+				"text" : "ui_foodumamicolor",
+				"type" : "color",
+				"value" : "0.9098039215686274 0.7764705882352941 0.5137254901960784"
+			},
+			"gametickinterval" : 
+			{
+				"fraction" : false,
+				"index" : 9,
+				"max" : 2000,
+				"min" : 1,
+				"order" : 109,
+				"text" : "ui_gametickinterval",
+				"type" : "slider",
+				"value" : 150
+			},
+			"groupadvanced" : 
+			{
+				"index" : 58,
+				"order" : 158,
+				"text" : "ui_groupadvanced",
+				"type" : "group",
+				"value" : ""
+			},
+			"initalsnakesize" : 
+			{
+				"fraction" : false,
+				"index" : 11,
+				"max" : 8,
+				"min" : 1,
+				"order" : 111,
+				"text" : "ui_initalsnakesize",
+				"type" : "slider",
+				"value" : 3
+			},
+			"initfoodoninit" : 
+			{
+				"index" : 7,
+				"order" : 107,
+				"text" : "ui_initfoodoninit",
+				"type" : "bool",
+				"value" : false
+			},
+			"maxfoodinarena" : 
+			{
+				"fraction" : false,
+				"index" : 6,
+				"max" : 1024,
+				"min" : 0,
+				"order" : 106,
+				"text" : "ui_maxfoodinarena",
+				"type" : "slider",
+				"value" : 8
+			},
+			"playercontroller" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "ui_playercontroller",
+				"type" : "bool",
+				"value" : false
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_schemecolor",
+				"type" : "color",
+				"value" : "0.11764705882352941 0.12549019607843137 0.18823529411764706"
+			},
+			"snakebodycharacter" : 
+			{
+				"condition" : "",
+				"index" : 32,
+				"order" : 132,
+				"text" : "ui_snakebodycharacter",
+				"type" : "textinput",
+				"value" : "o"
+			},
+			"snakecolorsprimarycolor" : 
+			{
+				"condition" : "snakeskin.value == 0",
+				"index" : 43,
+				"order" : 143,
+				"text" : "ui_snakecolorsprimarycolor",
+				"type" : "color",
+				"value" : "0.788235294117647 0.9098039215686274 0.5137254901960784"
+			},
+			"snakecustompatterncolors" : 
+			{
+				"condition" : "snakeskin.value == 1",
+				"index" : 44,
+				"order" : 144,
+				"text" : "ui_snakecustompatterncolors",
+				"type" : "textinput",
+				"value" : "#E88383 #E8C683 #C9E883 #83E8E6 #8385E8 #E883E3"
+			},
+			"snakeflashcolor" : 
+			{
+				"index" : 55,
+				"order" : 155,
+				"text" : "ui_snakeflashcolor",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"snakeheadcharacter" : 
+			{
+				"index" : 31,
+				"order" : 131,
+				"text" : "ui_snakeheadcharacter",
+				"type" : "textinput",
+				"value" : "0"
+			},
+			"snakepatternhint" : 
+			{
+				"condition" : "snakeskin.value == 1",
+				"index" : 45,
+				"order" : 145,
+				"text" : "ui_snakepatternhint",
+				"type" : "text"
+			},
+			"snakeskin" : 
+			{
+				"index" : 42,
+				"options" : 
+				[
+					{
+						"label" : "Solid",
+						"value" : "0"
+					},
+					{
+						"label" : "Custom",
+						"value" : "1"
+					}
+				],
+				"order" : 142,
+				"text" : "ui_snakeskin",
+				"type" : "combo",
+				"value" : "0"
+			},
+			"snaketailcharacter" : 
+			{
+				"index" : 33,
+				"order" : 133,
+				"text" : "ui_snaketailcharacter",
+				"type" : "textinput",
+				"value" : "."
+			},
+			"stexthowusecontrol" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "ui_stexthowusecontrol",
+				"type" : "text"
+			},
+			"stextreplacementhelp" : 
+			{
+				"index" : 29,
+				"order" : 129,
+				"text" : "ui_stextreplacementhelp",
+				"type" : "text"
+			},
+			"syncfpswithgametick" : 
+			{
+				"index" : 59,
+				"order" : 159,
+				"text" : "ui_syncfpswithgametick",
+				"type" : "bool",
+				"value" : true
+			},
+			"text" : 
+			{
+				"index" : 12,
+				"order" : 112,
+				"text" : "ui_text",
+				"type" : "group",
+				"value" : ""
+			},
+			"textboxbottomleftpositionoffsetx" : 
+			{
+				"fraction" : false,
+				"index" : 23,
+				"max" : 150,
+				"min" : -150,
+				"order" : 123,
+				"text" : "ui_textboxbottomleftpositionoffsetx",
+				"type" : "slider",
+				"value" : 0
+			},
+			"textboxbottomleftpositionoffsety" : 
+			{
+				"fraction" : false,
+				"index" : 24,
+				"max" : 150,
+				"min" : -150,
+				"order" : 124,
+				"text" : "ui_textboxbottomleftpositionoffsety",
+				"type" : "slider",
+				"value" : 0
+			},
+			"textboxbottomlefttext" : 
+			{
+				"index" : 22,
+				"order" : 122,
+				"text" : "ui_textboxbottomlefttext",
+				"type" : "textinput",
+				"value" : "Snake Length: {snakeLength}"
+			},
+			"textboxbottomrightpositionoffsetx" : 
+			{
+				"fraction" : false,
+				"index" : 27,
+				"max" : 150,
+				"min" : -150,
+				"order" : 127,
+				"text" : "ui_textboxbottomrightpositionoffsetx",
+				"type" : "slider",
+				"value" : 0
+			},
+			"textboxbottomrightpositionoffsety" : 
+			{
+				"fraction" : false,
+				"index" : 28,
+				"max" : 150,
+				"min" : -150,
+				"order" : 128,
+				"text" : "ui_textboxbottomrightpositionoffsety",
+				"type" : "slider",
+				"value" : 0
+			},
+			"textboxbottomrighttext" : 
+			{
+				"index" : 26,
+				"order" : 126,
+				"text" : "ui_textboxbottomrighttext",
+				"type" : "textinput",
+				"value" : "Deaths: {deathCount}"
+			},
+			"textboxtopleftpositionoffsetx" : 
+			{
+				"fraction" : false,
+				"index" : 15,
+				"max" : 150,
+				"min" : -150,
+				"order" : 115,
+				"text" : "ui_textboxtopleftpositionoffsetx",
+				"type" : "slider",
+				"value" : 0
+			},
+			"textboxtopleftpositionoffsety" : 
+			{
+				"fraction" : false,
+				"index" : 16,
+				"max" : 150,
+				"min" : -150,
+				"order" : 116,
+				"text" : "ui_textboxtopleftpositionoffsety",
+				"type" : "slider",
+				"value" : 0
+			},
+			"textboxtoplefttext" : 
+			{
+				"index" : 14,
+				"order" : 114,
+				"text" : "ui_textboxtoplefttext",
+				"type" : "textinput",
+				"value" : "Score: {score}"
+			},
+			"textboxtoprightpositionoffsetx" : 
+			{
+				"fraction" : false,
+				"index" : 19,
+				"max" : 150,
+				"min" : -150,
+				"order" : 119,
+				"text" : "ui_textboxtoprightpositionoffsetx",
+				"type" : "slider",
+				"value" : 0
+			},
+			"textboxtoprightpositionoffsety" : 
+			{
+				"fraction" : false,
+				"index" : 20,
+				"max" : 150,
+				"min" : -150,
+				"order" : 120,
+				"text" : "ui_textboxtoprightpositionoffsety",
+				"type" : "slider",
+				"value" : 0
+			},
+			"textboxtoprighttext" : 
+			{
+				"index" : 18,
+				"order" : 118,
+				"text" : "ui_textboxtoprighttext",
+				"type" : "textinput",
+				"value" : "Best Score: {bestScore}"
+			},
+			"textcolor" : 
+			{
+				"index" : 50,
+				"order" : 150,
+				"text" : "ui_textcolor",
+				"type" : "color",
+				"value" : "0.8392156862745098 0.8705882352941177 0.9764705882352941"
+			},
+			"toplefttexttitle" : 
+			{
+				"index" : 13,
+				"order" : 113,
+				"text" : "ui_toplefttexttitle",
+				"type" : "text"
+			},
+			"toprighttexttitle" : 
+			{
+				"index" : 17,
+				"order" : 117,
+				"text" : "ui_toprighttexttitle",
+				"type" : "text"
+			},
+			"wallwarp" : 
+			{
+				"index" : 8,
+				"order" : 108,
+				"text" : "ui_wallwarp",
+				"type" : "bool",
+				"value" : true
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"tags" : [ "Game" ],
+	"title" : "Console Snake Game",
+	"type" : "web",
+	"version" : 8,
+	"visibility" : "public",
+	"workshopid" : "3238526100",
+	"workshopurl" : "steam://url/CommunityFilePage/3238526100"
+}
